@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>뻠허브-동영상 복구 사이트</title>
+  <style>
+    :root{--bg:#0f1720;--card:#0b1220;--accent:#ff6b6b;color-scheme:dark}
+    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,'Noto Sans KR',sans-serif;background:var(--bg);color:#e6eef8}
+    header{padding:28px 18px;text-align:center}
+    h1{margin:0;font-size:clamp(20px,4vw,34px)}
+    p.lead{margin:8px 0 0;opacity:.8}
+    .wrap{max-width:1000px;margin:26px auto;padding:0 16px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);border:1px solid rgba(255,255,255,0.04);padding:10px;border-radius:10px}
+    .card video{width:100%;height:auto;border-radius:6px;display:block}
+    .meta{display:flex;justify-content:space-between;align-items:center;margin-top:8px;font-size:13px}
+    .meta .title{font-weight:600}
+    footer{margin:40px 0 60px;text-align:center;color:rgba(230,238,248,.6);font-size:13px}
+    .small{font-size:12px;opacity:.8}
+    @media (max-width:420px){header{padding:18px} .wrap{padding:0 12px}}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>노란 딱지, 유투브 정책 위반 동영상 복구사이트</h1>
+    <p class="lead"></p>
+  </header>
+
+  <main class="wrap">
+    <div class="grid">
+      <div class="card">
+        <video controls playsinline preload="metadata" poster="assets/imgs/thumb1.jpg">
+          <source src="assets/videos/video1.mp4" type="video/mp4">
+          브라우저가 video 태그를 지원하지 않습니다.
+        </video>
+        <div class="meta"><div class="title">동영상 1</div><div class="small">혼자만 보세요</div></div>
+      </div>
+
+      <div class="card">
+        <video controls playsinline preload="metadata" poster="assets/imgs/thumb2.jpg">
+          <source src="assets/videos/video2.mp4" type="video/mp4">
+        </video>
+        <div class="meta"><div class="title">동영상 2</div><div class="small">혼자만 보세요</div></div>
+      </div>
+
+      <div class="card">
+        <video controls playsinline preload="metadata" poster="assets/imgs/thumb3.jpg">
+          <source src="assets/videos/video3.mp4" type="video/mp4">
+        </video>
+        <div class="meta"><div class="title">동영상 3</div><div class="small">혼자만 보세요</div></div>
+      </div>
+
+      <div class="card">
+        <video controls playsinline preload="metadata" poster="assets/imgs/thumb4.jpg">
+          <source src="assets/videos/video4.mp4" type="video/mp4">
+        </video>
+        <div class="meta"><div class="title">동영상 4</div><div class="small">혼자만 보세요</div></div>
+      </div>
+
+      <div class="card">
+        <video controls playsinline preload="metadata" poster="assets/imgs/thumb5.jpg">
+          <source src="assets/videos/video5.mp4" type="video/mp4">
+        </video>
+        <div class="meta"><div class="title">동영상 5</div><div class="small">혼자만 보세요</div></div>
+      </div>
+
+      
+      <div class="card">
+        <video controls playsinline preload="metadata" poster="assets/imgs/thumb5.jpg">
+          <source src="assets/videos/video6.mp4" type="video/mp4">
+        </video>
+        <div class="meta"><div class="title">동영상 6</div><div class="small">혼자만 보세요</div></div>
+      </div>
+
+      
+      <div class="card">
+        <video controls playsinline preload="metadata" poster="assets/imgs/thumb5.jpg">
+          <source src="assets/videos/video7.mp4" type="video/mp4">
+        </video>
+        <div class="meta"><div class="title">동영상 7</div><div class="small">혼자만 보세요</div></div>
+      </div>
+
+      
+      <div class="card">
+        <video controls playsinline preload="metadata" poster="assets/imgs/thumb5.jpg">
+          <source src="assets/videos/video8.mp4" type="video/mp4">
+        </video>
+        <div class="meta"><div class="title">동영상 8</div><div class="small">혼자만 보세요</div></div>
+      </div>
+
+    </div>
+
+    <footer>
+      <div>동영상 파일을 `assets/videos/` 폴더에 넣어주세요 (video1.mp4 ~ video5.mp4)</div>
+      <div style="margin-top:8px;">썸네일(선택): assets/imgs/thumb1.jpg ~ thumb5.jpg</div>
+    </footer>
+  </main>
+</body>
+</html>
